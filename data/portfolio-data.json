@@ -1,0 +1,577 @@
+{
+    "projects":  [
+                     {
+                         "videoUrl":  "videos/emissions-totals-vs-lifestyles.mp4",
+                         "slug":  "emissions-totals-vs-lifestyles",
+                         "id":  "demographics-students-sunnyvale",
+                         "thumbnailUrl":  "thumbnails/emissions-totals-vs-lifestyles.png",
+                         "category":  "Climate \u0026 Environment",
+                         "tags":  [
+                                      "Emissions",
+                                      "Per-Capita",
+                                      "EDGAR",
+                                      "Living Histogram"
+                                  ],
+                         "scenes":  [
+                                        {
+                                            "id":  "hook",
+                                            "scene_goal":  "Make one year of global greenhouse gas emissions feel like a concrete quantity.",
+                                            "main_insight":  "The world released about 53 billion tonnes of greenhouse gases in 2024.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A presenter points at a rising total so an abstract gas becomes a countable weight.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "question",
+                                            "scene_goal":  "Pose one clear question: where do those billions of tonnes come from?",
+                                            "main_insight":  "The world total hides enormous differences between countries.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "The presenter turns from the total toward the world, opening the search for the source.",
+                                            "duration_seconds":  7
+                                        },
+                                        {
+                                            "id":  "context",
+                                            "scene_goal":  "Establish that a handful of countries dominate the world total.",
+                                            "main_insight":  "Five countries together produce about 56 percent of all greenhouse gases.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A dial of countable five percent ticks fills past halfway, so concentration is counted rather than asserted.",
+                                            "duration_seconds":  12
+                                        },
+                                        {
+                                            "id":  "evidence",
+                                            "scene_goal":  "Name the biggest emitters and show exactly how much of the world total each one carries.",
+                                            "main_insight":  "China produces 29 percent of world greenhouse gases, more than the United States and India combined.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "One hundred unit cells stand for the whole world\u0027s emissions and are handed out to countries in order.",
+                                            "duration_seconds":  16
+                                        },
+                                        {
+                                            "id":  "comparison",
+                                            "scene_goal":  "Show that the biggest total emitter is not the biggest emitter per person.",
+                                            "main_insight":  "An average American emits about six times as much as an average Indian.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of person figures, two tonnes each, line up so countries are compared one citizen at a time.",
+                                            "duration_seconds":  16
+                                        },
+                                        {
+                                            "id":  "insight",
+                                            "scene_goal":  "Show that a national total is population multiplied by emissions per person.",
+                                            "main_insight":  "About 41 of every 100 people on Earth live in the four largest emitting countries.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A block of one hundred people with forty-one highlighted turns a population share into something countable.",
+                                            "duration_seconds":  12
+                                        },
+                                        {
+                                            "id":  "conclusion",
+                                            "scene_goal":  "State the ranking the whole video has been building toward.",
+                                            "main_insight":  "China is the largest emitter overall, followed by the United States and India.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "The presenter stands between the trophy of the largest total and the globe of shared responsibility.",
+                                            "duration_seconds":  11
+                                        },
+                                        {
+                                            "id":  "takeaway",
+                                            "scene_goal":  "Leave the viewer with the ranking, the per-person contrast and the concentration.",
+                                            "main_insight":  "Totals name the biggest countries, while per-person figures name the heaviest lifestyles.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Three concept symbols stand as the three things worth remembering.",
+                                            "duration_seconds":  8
+                                        }
+                                    ],
+                         "claims":  [
+                                        {
+                                            "source":  null,
+                                            "text":  "The world released about 53.2 billion tonnes of carbon dioxide equivalent greenhouse gases in 2024.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "A small number of countries account for most of the world\u0027s greenhouse gas emissions.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "China, the United States, India, Russia and Brazil together produced about 56 percent of global greenhouse gases in 2024.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "In 2024 China produced 29 percent of global greenhouse gases, the United States 11 percent, India 8 percent, Russia 5 percent and Brazil 2 percent.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "China was the largest national emitter in 2024, at about 29 percent of the world total.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Per person in 2024, Russia emitted 18.0 tonnes, the United States 17.3, China 10.8 and India 3.0 tonnes of CO2 equivalent.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "The world average was about 6.6 tonnes of CO2 equivalent per person in 2024.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "About 41 of every 100 people on Earth live in China, India, the United States or Russia.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "China emits the most greenhouse gases in total, followed by the United States and then India.",
+                                            "proof_type":  null
+                                        }
+                                    ],
+                         "render":  {
+                                        "fps":  30,
+                                        "duration":  91,
+                                        "width":  1280,
+                                        "height":  720,
+                                        "spec_version":  "1.7"
+                                    },
+                         "title":  "Global Greenhouse Gas Emissions: Totals vs. Per-Capita Responsibility",
+                         "tufteSkills":  [
+                                             {
+                                                 "skill_id":  "p142-02-living-histogram-students-by-height",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p128-01-redesign-of-the-bar-chart-histogram",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p096-01-most-of-the-ink-in-this-graphic-is-data-ink-the-dots-and-labels",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             }
+                                         ],
+                         "summary":  "An explainer contrasting national emissions against personal consumption footprints using Tufte\u0027s living histogram and unit-cell dot arrays."
+                     },
+                     {
+                         "videoUrl":  "videos/anscombe-quartet.mp4",
+                         "slug":  "anscombe-quartet",
+                         "id":  "presentation-proof-anscombe",
+                         "thumbnailUrl":  "thumbnails/anscombe-quartet.png",
+                         "category":  "Data Science \u0026 Theory",
+                         "tags":  [
+                                      "Anscombe",
+                                      "Statistics",
+                                      "Data-Ink",
+                                      "Scatterplot"
+                                  ],
+                         "scenes":  [
+
+                                    ],
+                         "claims":  [
+
+                                    ],
+                         "render":  {
+                                        "fps":  30,
+                                        "duration":  60,
+                                        "width":  1280,
+                                        "height":  720,
+                                        "spec_version":  "1.7"
+                                    },
+                         "title":  "Anscombe\u0027s Quartet: The Mathematical Proof for Data Graphics",
+                         "tufteSkills":  [
+
+                                         ],
+                         "summary":  "The gold standard of visual data literacy: proving why tabular summary statistics deceive without graphical scatterplots."
+                     },
+                     {
+                         "videoUrl":  "videos/india-in-global-health.mp4",
+                         "slug":  "india-in-global-health",
+                         "id":  "india-in-global-health",
+                         "thumbnailUrl":  "thumbnails/india-in-global-health.png",
+                         "category":  "Global Health",
+                         "tags":  [
+                                      "Healthcare",
+                                      "WHO",
+                                      "World Bank",
+                                      "Life Expectancy"
+                                  ],
+                         "scenes":  [
+                                        {
+                                            "id":  "hook",
+                                            "scene_goal":  "Pose the comparison the whole video answers, framed on a global stage.",
+                                            "main_insight":  "India health can only be judged by comparing it with its Asian neighbours.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A globe and health symbols frame a global health question.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "life",
+                                            "scene_goal":  "Show how long people live in India against four neighbours.",
+                                            "main_insight":  "India life expectancy near seventy sits between Bangladesh and China.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of figures grow to show who lives longest.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "infant",
+                                            "scene_goal":  "Compare infant mortality, where fewer figures mean safer births.",
+                                            "main_insight":  "India loses about twenty-seven infants per thousand, far fewer than Pakistan.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of infant figures show where more babies are lost.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "sanitation",
+                                            "scene_goal":  "Show how much of India can reach basic sanitation.",
+                                            "main_insight":  "About three in four people in India can reach basic sanitation.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A ring fills to show how much of India has sanitation.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "spend",
+                                            "scene_goal":  "Show how little India spends per person compared with richer neighbours.",
+                                            "main_insight":  "India spends only about two hundred dollars per person on health.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of coin-people show who spends most per person.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "oop",
+                                            "scene_goal":  "Show how much of India health cost falls straight on families.",
+                                            "main_insight":  "Nearly half of India health spending is paid straight out of pocket.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A ring fills to show how much families pay themselves.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "summary",
+                                            "scene_goal":  "Show India overall standing across the five measures, with medals.",
+                                            "main_insight":  "Across the five measures India ranks third, ahead of Bangladesh and Pakistan.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A medal table ranks the five countries overall.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "takeaway",
+                                            "scene_goal":  "Deliver the closing message as icon-led points with minimal text.",
+                                            "main_insight":  "India lives longer and cleaner, spends little, and is steadily improving.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Three concept icons recap India health story at a glance.",
+                                            "duration_seconds":  6
+                                        }
+                                    ],
+                         "claims":  [
+                                        {
+                                            "source":  null,
+                                            "text":  "This story ranks India against four Asian neighbours on core health measures.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Life expectancy at birth in India is about seventy years, just below China.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "India loses about twenty-seven infants per thousand births, far fewer than Pakistan.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "About seventy-five percent of people in India can reach basic sanitation.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "India spends only about two hundred dollars per person on health each year.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Almost half of India health spending, about forty-eight percent, is paid out of pocket.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Across these measures India sits in the middle, ahead of Bangladesh and Pakistan.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "India is improving steadily, but big gaps with richer countries still remain.",
+                                            "proof_type":  null
+                                        }
+                                    ],
+                         "render":  {
+                                        "fps":  30,
+                                        "duration":  65,
+                                        "width":  1280,
+                                        "height":  720,
+                                        "spec_version":  "1.7"
+                                    },
+                         "title":  "India in Global Health: Measuring Progress Across Asian Neighbours",
+                         "tufteSkills":  [
+                                             {
+                                                 "skill_id":  "p128-01-redesign-of-the-bar-chart-histogram",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             }
+                                         ],
+                         "summary":  "Comparative multi-indicator health study tracking life expectancy, infant mortality, and out-of-pocket expenses across South Asia."
+                     },
+                     {
+                         "videoUrl":  "videos/world-demographics.mp4",
+                         "slug":  "world-demographics",
+                         "id":  "demographics-around-the-world",
+                         "thumbnailUrl":  "thumbnails/world-demographics.png",
+                         "category":  "Demographics",
+                         "tags":  [
+                                      "Population",
+                                      "UN WPP",
+                                      "Fertility",
+                                      "Aging"
+                                  ],
+                         "scenes":  [
+                                        {
+                                            "id":  "hook",
+                                            "scene_goal":  "Make the size of humanity feel concrete before any breakdown appears.",
+                                            "main_insight":  "Humanity has reached about eight point two billion people in 2024.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A presenter points at a counting total to turn abstraction into people.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "question",
+                                            "scene_goal":  "Frame the two questions the video answers: who we are and where we live.",
+                                            "main_insight":  "The single total hides enormous variety in who people are and where they live.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A presenter turns a bare number into a human question.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "context",
+                                            "scene_goal":  "Reveal how unevenly the world population is distributed across regions.",
+                                            "main_insight":  "Asia alone fills about fifty-nine of every hundred people figures.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of people figures fill up to show how lopsided the world is.",
+                                            "duration_seconds":  11
+                                        },
+                                        {
+                                            "id":  "evidence",
+                                            "scene_goal":  "Reveal which single countries carry the largest populations.",
+                                            "main_insight":  "India shows the longest row of figures, just ahead of China.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Two long rows of people figures edge apart as India passes China.",
+                                            "duration_seconds":  11
+                                        },
+                                        {
+                                            "id":  "comparison",
+                                            "scene_goal":  "Reveal the enormous global range in births per woman.",
+                                            "main_insight":  "Niger shows more than six figures while Korea shows less than one.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Rows of baby figures stretch from a large family to almost none.",
+                                            "duration_seconds":  11
+                                        },
+                                        {
+                                            "id":  "insight",
+                                            "scene_goal":  "Show that the share of older people is rising by counting figures, not numbers.",
+                                            "main_insight":  "About one in ten people is older today, rising to roughly one in six by 2050.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A highlighted block of people grows from one in ten to one in six.",
+                                            "duration_seconds":  9
+                                        },
+                                        {
+                                            "id":  "conclusion",
+                                            "scene_goal":  "Answer directly that demographics vary enormously from place to place.",
+                                            "main_insight":  "There is no single global story, because each region grows and ages differently.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "A presenter gathers the evidence into one clear answer.",
+                                            "duration_seconds":  8
+                                        },
+                                        {
+                                            "id":  "takeaway",
+                                            "scene_goal":  "Deliver a durable takeaway as icon-led points with minimal text.",
+                                            "main_insight":  "The whole video reduces to three ideas: uneven spread, differing births, and aging.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Three concept icons recap the entire story at a glance.",
+                                            "duration_seconds":  7
+                                        }
+                                    ],
+                         "claims":  [
+                                        {
+                                            "source":  null,
+                                            "text":  "The world population reached about 8.2 billion people in 2024.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "People are spread unevenly across the world, so where they live varies enormously.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Asia is home to roughly fifty-nine percent of all people on Earth.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "India passed China in 2023 as the most populous country in the world.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Births per woman range from about 6.6 in Niger to 0.7 in South Korea.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "About one in ten people worldwide is already aged 65 or older in 2024.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "By 2050 roughly one in six people, about sixteen percent, will be aged 65 or older.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Demographics differ enormously by place, so there is no single global story.",
+                                            "proof_type":  null
+                                        }
+                                    ],
+                         "render":  {
+                                        "fps":  30,
+                                        "duration":  74,
+                                        "width":  1280,
+                                        "height":  720,
+                                        "spec_version":  "1.7"
+                                    },
+                         "title":  "Demographics Around the World: The 8.2 Billion Human Mosaic",
+                         "tufteSkills":  [
+                                             {
+                                                 "skill_id":  "p128-01-redesign-of-the-bar-chart-histogram",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             }
+                                         ],
+                         "summary":  "Demographic documentary demonstrating why there is no single global population trend, comparing hyper-growth with rapid aging."
+                     },
+                     {
+                         "videoUrl":  "videos/abs-census-infrastructure.mp4",
+                         "slug":  "abs-census-infrastructure",
+                         "id":  "australian-bureau-of-statistics",
+                         "thumbnailUrl":  "thumbnails/abs-census-infrastructure.png",
+                         "category":  "Demographics",
+                         "tags":  [
+                                      "Census",
+                                      "ABS",
+                                      "Migration",
+                                      "Dot Density"
+                                  ],
+                         "scenes":  [
+                                        {
+                                            "id":  "abs-evidence-engine",
+                                            "scene_goal":  "Show what the ABS does and why official statistics matter for public decisions.",
+                                            "main_insight":  "ABS is best understood as a data-to-decisions engine, not merely an agency name.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Collected observations move through trust checks and become public decisions.",
+                                            "duration_seconds":  10
+                                        },
+                                        {
+                                            "id":  "census-everyone-2026",
+                                            "scene_goal":  "Make the 11 August 2026 date and every-person scope impossible to miss.",
+                                            "main_insight":  "The Census converts a country of homes and people into usable planning evidence.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "People and household units gather on one marked Census date.",
+                                            "duration_seconds":  10
+                                        },
+                                        {
+                                            "id":  "population-growth-signal",
+                                            "scene_goal":  "Anchor the total population before splitting annual growth by cause.",
+                                            "main_insight":  "The annual increase is mostly net overseas migration rather than natural increase.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "Two people streams merge into one annual growth total beside the national count.",
+                                            "duration_seconds":  12
+                                        },
+                                        {
+                                            "id":  "state-growth-range",
+                                            "scene_goal":  "Show Western Australia fastest and Tasmania slowest without losing the full context.",
+                                            "main_insight":  "The national signal has regional variation, led by Western Australia at 2.2%.",
+                                            "caption_text":  null,
+                                            "visual_metaphor":  "State and territory labels become a ranked field of population-growth marks.",
+                                            "duration_seconds":  10
+                                        }
+                                    ],
+                         "claims":  [
+                                        {
+                                            "source":  null,
+                                            "text":  "The ABS is Australia\u0027s national statistical agency, publishing trusted official statistics and insights for public decisions.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "The 2026 Census counts every person and household in Australia on 11 August 2026.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "At 31 December 2025, ABS estimated Australia\u0027s resident population at 27,801,023 people.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Annual growth to December 2025 was 412,500 people, including 111,500 natural increase and 301,000 net overseas migration.",
+                                            "proof_type":  null
+                                        },
+                                        {
+                                            "source":  null,
+                                            "text":  "Western Australia grew fastest at 2.2%, while Tasmania grew slowest at 0.5%.",
+                                            "proof_type":  null
+                                        }
+                                    ],
+                         "render":  {
+                                        "fps":  30,
+                                        "duration":  42,
+                                        "width":  1280,
+                                        "height":  720,
+                                        "spec_version":  "1.7"
+                                    },
+                         "title":  "Australian Bureau of Statistics: Data as Public Infrastructure",
+                         "tufteSkills":  [
+                                             {
+                                                 "skill_id":  "p142-02-living-histogram-students-by-height",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p128-01-redesign-of-the-bar-chart-histogram",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p028-01-galaxy-count-dot-density-map",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p001-01-cover-marey-train-schedule-graphic",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p182-01-for-sets-of-highly-labeled-numbers-a-wordy-data-graphic",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             },
+                                             {
+                                                 "skill_id":  "p151-01-double-functioning-labels",
+                                                 "why":  null,
+                                                 "principle":  null
+                                             }
+                                         ],
+                         "summary":  "How Australia\u0027s Census engine tracks 27.8M citizens, distinguishing net overseas migration from natural increase."
+                     }
+                 ],
+    "generatedAt":  "2026-09-25 22.02.30"
+}
