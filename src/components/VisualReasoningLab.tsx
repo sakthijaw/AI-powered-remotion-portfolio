@@ -1,35 +1,18 @@
 import React, { useState } from 'react';
-import { usePhysicalTilt } from '../hooks/usePhysicalTilt';
 
 export const VisualReasoningLab: React.FC = () => {
   const [metricMode, setMetricMode] = useState<'total' | 'perCapita' | 'dataInk'>('total');
 
-  const tilt = usePhysicalTilt({
-    maxTilt: 4.5,
-    perspective: 1000,
-    scaleOnHover: 1.015,
-  });
-
-  // 100 unit cells representing the global distribution
   const totalCells = 100;
-  // Allocation in 'total' mode: China (29), US (11), India (8), EU (7), Russia (5), Rest of World (40)
-  // Allocation in 'perCapita' mode: US (35), China (21), EU (16), Russia (14), India (6), Rest (8)
 
   return (
-    <div
-      ref={tilt.ref}
-      {...tilt.props}
-      style={tilt.style}
-      className="visual-reasoning-lab-card"
-    >
-      <div className="card-shine-layer" style={tilt.shineStyle} />
-
+    <div className="visual-reasoning-lab-card">
       {/* Lab Header */}
       <div className="lab-header">
         <div className="lab-title-group">
           <div className="lab-live-badge">
             <span className="live-dot" />
-            <span>LIVE EMPIRICAL REASONING ENGINE</span>
+            <span>EMPIRICAL REASONING ENGINE</span>
           </div>
           <h3 className="lab-title">Tufte Data-Ink & Ground Truth Probe</h3>
         </div>
@@ -39,18 +22,21 @@ export const VisualReasoningLab: React.FC = () => {
       {/* Interactive Mode Selector */}
       <div className="lab-mode-strip">
         <button
+          type="button"
           className={`lab-mode-tab ${metricMode === 'total' ? 'active' : ''}`}
           onClick={() => setMetricMode('total')}
         >
           01 / National Total (53.2B t)
         </button>
         <button
+          type="button"
           className={`lab-mode-tab ${metricMode === 'perCapita' ? 'active' : ''}`}
           onClick={() => setMetricMode('perCapita')}
         >
           02 / Per-Capita Footprint
         </button>
         <button
+          type="button"
           className={`lab-mode-tab ${metricMode === 'dataInk' ? 'active' : ''}`}
           onClick={() => setMetricMode('dataInk')}
         >
@@ -105,7 +91,6 @@ export const VisualReasoningLab: React.FC = () => {
                 tooltip = 'India: 2.5 tonnes / person (6x smaller footprint)';
               }
             } else {
-              // dataInk mode - all pure white ink
               cellClass = 'cell-pure-ink';
               tooltip = 'Active Data-Ink Pixel (No Moiré, No Distortion)';
             }
@@ -115,7 +100,6 @@ export const VisualReasoningLab: React.FC = () => {
                 key={i}
                 className={`unit-cell ${cellClass}`}
                 title={tooltip}
-                style={{ animationDelay: `${(i % 10) * 0.02}s` }}
               />
             );
           })}
@@ -164,7 +148,7 @@ export const VisualReasoningLab: React.FC = () => {
           <span className="lab-metric-val">7.8 : 1</span>
           <span className="lab-metric-lbl">WCAG AAA Contrast</span>
           <div className="lab-progress-bar">
-            <div className="lab-progress-fill" style={{ width: '100%', background: '#34D399' }} />
+            <div className="lab-progress-fill" style={{ width: '100%', background: '#10B981' }} />
           </div>
         </div>
       </div>

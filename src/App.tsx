@@ -1,95 +1,44 @@
 import React, { useEffect } from 'react';
-import { Navigation } from './components/Navigation';
-import { Hero } from './components/Hero';
-import { FeatureSection } from './components/FeatureSection';
-import { ArchitectureSection } from './components/ArchitectureSection';
-import { TechStackSection } from './components/TechStackSection';
+import { HeroSection } from './components/HeroSection';
+import { MarqueeSection } from './components/MarqueeSection';
 import { AboutSection } from './components/AboutSection';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
+import { ServicesSection } from './components/ServicesSection';
+import { ProjectsSection } from './components/ProjectsSection';
 
 export const App: React.FC = () => {
-  // Hash Routing smooth jump (e.g. #architecture, #exhibits, #stack, #about, #contact)
   useEffect(() => {
-    const handleHash = () => {
-      const hash = window.location.hash;
-      if (hash && hash.length > 1) {
-        const id = hash.replace('#', '');
-        const target = document.getElementById(id);
-        if (target) {
-          setTimeout(() => {
-            target.scrollIntoView({ behavior: 'smooth' });
-          }, 80);
-        }
-      }
-    };
-
-    handleHash();
-    window.addEventListener('hashchange', handleHash);
-    return () => window.removeEventListener('hashchange', handleHash);
+    document.documentElement.classList.add('theme-dark');
   }, []);
-
-  // Intersection Observer for scroll entrance animations across all sections, grids, and cards
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('in-view');
-          }
-        });
-      },
-      {
-        threshold: 0.1,
-        rootMargin: '0px 0px -40px 0px',
-      }
-    );
-
-    const animatedElements = document.querySelectorAll(
-      '.scroll-section, .video-exhibit-section, .stat-item, .about-bio-card, .about-experience-card, .contact-box, .hud-callout-tag'
-    );
-    animatedElements.forEach((el) => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, []);
-
-  const handleExplore = () => {
-    const exhibitsEl = document.getElementById('exhibits');
-    if (exhibitsEl) {
-      exhibitsEl.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  const handleScrollToArchitecture = () => {
-    const archEl = document.getElementById('architecture');
-    if (archEl) {
-      archEl.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
-    <div className="interactive-3d-app">
-      {/* Ambient background glows with AI monochrome + subtle blush gradient */}
-      <div className="ambient-glow glow-blush-top" aria-hidden="true" />
-      <div className="ambient-glow glow-blush-center" aria-hidden="true" />
-      <div className="ambient-glow glow-silver-bottom" aria-hidden="true" />
+    <div style={{ overflowX: 'clip' }}>
+      {/* 1. Hero — 3D Perspective Orbital Scene, stats, light/dark toggle */}
+      <HeroSection />
 
-      {/* Fixed Minimal Editorial Navigation */}
-      <Navigation />
+      {/* 2. Marquee — 5-film production catalog + tech stack */}
+      <MarqueeSection />
 
-      {/* Seamless Single-Page Continuous Scroll Flow */}
-      <main className="scroll-container">
-        <Hero
-          onExplore={handleExplore}
-          onOpenArchitecture={handleScrollToArchitecture}
-        />
-        <FeatureSection onOpenArchitecture={handleScrollToArchitecture} />
-        <ArchitectureSection />
-        <TechStackSection />
-        <AboutSection />
-        <ContactSection />
-        <Footer />
-      </main>
+      {/* 3. About — director bio, 3 pillars, AnimatedText */}
+      <AboutSection />
+
+      {/* 4. Architecture — multi-layer system architecture */}
+      <ServicesSection />
+
+      {/* 5. Projects (Documentaries) — sticky stacking documentary cards with 5 films */}
+      <ProjectsSection />
+
+      {/* Minimal clean footer */}
+      <footer className="py-12 px-6 border-t text-center text-xs font-mono uppercase tracking-widest opacity-40 transition-colors"
+        style={{ borderColor: 'var(--border-subtle, rgba(255,255,255,0.08))' }}
+      >
+        <span className="font-semibold text-[#C5A566]">AUTONOMOUS AI DIRECTOR</span>
+        <span> · </span>
+        <span>Edward Tufte Visual Reasoning</span>
+        <span> · </span>
+        <span>60 FPS Remotion 4.0</span>
+        <span> · </span>
+        <span>© {new Date().getFullYear()} Sakthi</span>
+      </footer>
     </div>
   );
 };
